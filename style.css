@@ -1,0 +1,112 @@
+/* Styles de base et galerie (inchangés) */
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Style pour les informations du lieu */
+.location-details {
+    margin-top: 15px;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+/* Style pour la galerie d'images */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1) rotateY(10deg) rotateX(10deg);
+}
+
+/* Style pour le titre sous l'image */
+.image-title {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style pour la vidéo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    width: 800px; /* Largeur maximale de la vidéo */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour le lightbox */
+.lightbox {
+    display: none; /* Par défaut, masqué */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox-title {
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2em;
+    text-align: center;
+}
