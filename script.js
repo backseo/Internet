@@ -1,9 +1,26 @@
 // Liste des noms de fichiers d'images avec leurs titres
 const imageFiles = [
-    { fileName: "image1.jpg", title: "Vue de la façade" },
-    { fileName: "image2.jpg", title: "Intérieur moderne" },
-    { fileName: "image3.jpg", title: "Salle de réunion" },
-    { fileName: "image4.jpg", title: "Espace détente" },
+    { fileName: "image-01.jpg", title: "Vue de la façade" },
+    { fileName: "image-02.jpg", title: "Vue de la façade" },
+    { fileName: "image-03.jpg", title: "Plan large de l'accès" },
+    { fileName: "image-04.jpg", title: "Plan 3/4 de l'accès" },
+    { fileName: "image-05.jpg", title: "Plan 3/4 plongée" },
+    { fileName: "image-06.jpg", title: "Plan vide dessus" },
+    { fileName: "image-07.jpg", title: "Plan vide 3/4 dessus" },
+    { fileName: "image-08.jpg", title: "Entrée vide" },
+    { fileName: "image-09.jpg", title: "Chambre vide" },
+    { fileName: "image-10.jpg", title: "Salle à manger / Salon" },
+    { fileName: "image-11.jpg", title: "Salle de bain" },
+    { fileName: "image-12.jpg", title: "Plan 3/4 dessus meublé" },
+    { fileName: "image-13.jpg", title: "Palier" },
+    { fileName: "image-14.jpg", title: "Entrée meublée" },
+    { fileName: "image-15.jpg", title: "Chambre meublée" },
+    { fileName: "image-16.jpg", title: "SAM / Salon meublé" },
+    { fileName: "image-17.jpg", title: "SAM / Salon meublé" },
+    { fileName: "image-18.jpg", title: "SAM / Salon meublé" },
+    { fileName: "image-19.jpg", title: "Salle de bain meublée" },
+    { fileName: "image-20.jpg", title: "SDB / Toilettes" },
+
 ];
 
 // Sélectionne la section galerie
